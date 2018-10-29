@@ -1,0 +1,1033 @@
+.lp__top
+	background: #f5f6f7
+	border-bottom: 1px solid #fff
+	&:before
+		display: block
+		content: ''
+		width: 100%
+		height: 20px
+		background: url(../img/menu-top.jpg) no-repeat top center
+	.lp__container
+		padding-top: 27px
+		padding-bottom: 27px
+.lp__top-logo, .lp__top-menu, .lp__top-search, .lp__top-phone
+	display: inline-block
+	vertical-align: middle
+.lp__top-logo
+	margin-right: 50px
+.lp__top-menu
+	li
+		display: inline-block
+		margin-right: 25px
+		position: relative
+	a
+		text-transform: uppercase
+		font-size: 12px
+		color: #676767
+		text-decoration: none
+	.icon__lk
+		height: 20px
+		padding-left: 30px
+		margin-left: -5px
+		a
+			color: $blue
+.lp__top-menu-sub
+	display: none
+	position: absolute
+	z-index: 99
+	padding-top: 50px
+	div
+		width: 238px
+		background: #fff
+		border: 1px solid #c2c4c5
+		&:before
+			content: ''
+			display: block
+			margin: -12px auto 0
+			width: 24px
+			height: 12px
+			background: url(../img/drop.png) no-repeat
+		li
+			display: block
+			width: calc(100% - 50px)
+			padding: 8px 0 8px 50px!important
+			&:hover
+				background: #f5f6f7
+		a
+			text-transform: initial
+			font-size: 16px
+			color: #464647
+			font-weight: 300
+			display: block
+		b
+			display: block
+			width: calc(100% - 50px)
+			font-size: 16px
+			font-weight: 700
+			text-transform: uppercase
+			padding: 25px 0 15px 50px
+			border-bottom: 1px solid #c2c4c5
+			margin-bottom: 15px
+.lp__top-menu li:hover > .lp__top-menu-sub
+	display: block
+
+.lp__sub-1
+	margin-left: -100px
+.lp__sub-2
+	margin-left: -77px	
+
+.lp__top-search
+	height: 35px
+	width: 213px
+	border-radius: 20px
+	border: 1px solid $blue
+	padding-top: 3px
+	padding-right: 3px
+	padding-left: 7px
+.lp__top-search-input
+	padding-left: 17px
+	border: 0
+	background: none
+	font-size: 14px
+	height: 30px
+	display: inline-block
+	vertical-align: middle
+	width: 161px
+.lp__top-search-btn
+	display: inline-block
+	vertical-align: middle
+	width: 30px
+	height: 30px
+	background: $blue url(../img/icons/search.png) no-repeat center center
+	border-radius: 15px
+	border: 0
+	font-size: 0
+.lp__top-phone
+	margin-left: 15px
+	a
+		font-size: 26px
+		font-weight: 300
+		color: #666666
+		text-decoration: none
+	span
+		color: $blue
+
+.lp__header
+	background: url(../img/bg-1.png) no-repeat top center
+	overflow: hidden
+	min-height: 1170px
+	padding-top: 80px
+	position: relative
+	max-width: 1920px
+	margin: 0 auto
+.lp__header-left
+	width: calc(100% - 840px)
+	float: left
+	position: relative
+	z-index: 5
+	padding-right: 60px
+	img
+		max-width: 100%
+.lp__header-right
+	width: 780px
+	float: right
+	position: relative
+	z-index: 4
+.lp__header-right-r
+	padding-top: 80px
+.lp__header-shadow
+	position: absolute
+	z-index: -1
+	background: url(../img/header-shadow.png) no-repeat
+	width: 1624px
+	height: 975px
+	right: -280px
+	top: -160px
+.lp__header-h1
+	padding-top: 10px
+	font-weight: 300
+	font-size: 45px
+	color: #6c6f73
+	text-transform: uppercase
+.lp__header-h2
+	padding-top: 40px
+	font-weight: 300
+	font-size: 30px
+	color: #6c6f73
+.lp__header-list
+	font-size: 20px
+	padding-top: 53px
+	li
+		display: block
+		padding-bottom: 13px
+		padding-left: 37px
+		background: url(../img/header-dot.png) no-repeat 4px 8px
+.lp__header-btn
+	margin-top: 45px
+.btn-blue
+	width: 200px
+	height: 40px
+	border-radius: 20px
+	background: $blue
+	color: #fff
+	font-weight: 500
+	text-transform: uppercase
+	font-size: 14px
+	display: block
+	text-align: center
+	line-height: 40px
+	text-decoration: none
+.lp__header-lines-left
+	width: 234px
+	height: 155px
+	background: url(../img/double-left.png) no-repeat
+	position: absolute
+	top: 785px
+	left: -60px
+.lp__header-lines-right
+	width: 234px
+	height: 155px
+	background: url(../img/double-right.png) no-repeat
+	position: absolute
+	top: 5px
+	right: -70px
+
+.lp__menu-mobile-bg
+	display: none
+	background: rgba(0,0,0,.24)
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	z-index: 99
+.lp__menu-mobile
+	background: #f3f3f3
+	width: 420px
+	height: 100%
+	font-size: 16px
+	font-weight: 500
+.lp__menu-mobile-title
+	background: $blue
+	color: #fff
+	text-transform: uppercase
+	height: 40px
+	padding-left: 40px
+	line-height: 40px
+.lp__menu-mobile-main
+	background: #fff
+	padding: 20px 0
+	li
+		display: block
+	a
+		padding: 15px 0 15px 40px
+		display: block
+		color: #3b1c15
+		text-decoration: none
+		text-transform: uppercase
+.lp__menu-drop
+	background: #f1f1f1
+.lp__menu-mobile-sub 
+	display: none
+	li
+		background: #fff
+	a
+		padding-left: 50px
+.lp__menu-mobile-social
+	background: #fff
+	padding: 20px 0
+	margin-top: 25px
+	text-align: center
+	li
+		display: inline-block
+		img
+			width: 24px
+.lp__menu-mobile-link
+	padding: 40px 0 40px 40px
+	li
+		display: inline-block
+	a
+		color: #000
+		border-bottom: 1px solid #000
+		text-decoration: none
+.lp__menu-mobile-lk
+	background: #fff
+	padding: 20px 0
+	a
+		padding-left: 100px
+		background: url(../img/icons/lk-2.png) no-repeat 40px center
+		background-size: auto 40px
+		color: $blue
+		text-decoration: none
+		height: 40px
+		line-height: 40px
+		display: block
+.lp__menu-mobile-close
+	width: 40px
+	height: 40px
+	position: absolute
+	left: 420px
+	top: 0
+	cursor: pointer
+	background: $red url(../img/icons/close.png) no-repeat center center
+.js-drop
+	.icon__drop-menu-big
+		-moz-transform: rotate(180deg)
+		-ms-transform: rotate(180deg)
+		-webkit-transform: rotate(180deg)
+		-o-transform: rotate(180deg)
+		transform: rotate(180deg)
+		transition: .3s
+	.lp__menu-mobile-sub 
+		display: block
+
+.lp__sports
+	position: relative
+	z-index: 3
+	min-height: 1813px
+	background: url(../img/bg-2.png) no-repeat top center
+	padding-top: 605px
+	overflow: hidden
+	max-width: 1920px
+	margin: -765px auto 0
+.lp__right-h2
+	font-size: 44px
+	font-weight: 500
+	color: #2a3570
+	font-style: italic
+	text-transform: uppercase
+	text-shadow: 0 0 15px #77a1bb
+	padding-bottom: 30px
+.lp__right-h4
+	font-size: 24px
+	font-weight: 300
+	color: rgba(42,53,112,0.7)
+	font-style: italic
+	text-transform: uppercase
+	line-height: 1.333
+.lp__trigon-1
+	width: 152px
+	height: 113px
+	position: absolute
+	left: -210px
+	top: 30px
+	background: url(../img/trigon-1.png) no-repeat
+.lp__trigon-1-blue
+	background: url(../img/trigon-1-blue.png) no-repeat
+.lp__trigon-2
+	width: 93px
+	height: 49px
+	position: absolute
+	left: 150px
+	top: -110px
+	background: url(../img/trigon-2.png) no-repeat
+.lp__trigon-3
+	width: 238px
+	height: 222px
+	position: absolute
+	right: -40px
+	top: -220px
+	background: url(../img/trigon-3.png) no-repeat
+.lp__trigon-3-blue
+	background: url(../img/trigon-3-blue.png) no-repeat
+.lp__sports-slider
+	width: calc(100% - 100px)
+	color: #000	
+	margin: 60px auto 0 
+.lp__sports-slide
+	// width: calc(100% / 5)
+	text-align: center
+.lp__sports-slide-icon
+	width: 155px
+	height: 155px
+	background-color: #fff
+	display: block
+	background-image: url(../img/slider-icon.png)
+	background-position: center center
+	background-repeat: no-repeat
+	border-radius: 50%
+	margin: 0 auto 25px
+.lp__sports-slide-title
+	font-size: 26px
+	text-transform: uppercase
+	font-weight: 300
+.lp__sports-slide-text
+	font-weight: 100
+	font-size: 19px
+	line-height: 1.167
+	margin-top: 20px
+	b
+		font-weight: 500
+.lp__sports-btn
+	margin: 50px auto 0
+.btn-gray
+	width: 173px
+	height: 42px
+	background: #e8e7e6
+	border-radius: 22px
+	border: 1px solid #fff
+	text-align: center
+	line-height: 42px
+	font-weight: 500
+	font-size: 18px
+	color: #5a595c
+	display: block
+	text-decoration: none
+	text-transform: uppercase
+.lp__sports-slider .slick-slide
+	-webkit-transform: scale(.7)
+	ms-transform: scale(.7)
+	transform: scale(.7)
+	// Для крайних двух .6
+	opacity: .5
+	transition: transform 0.3s
+.lp__ts .slick-slide
+	-webkit-transform: scale(1)
+	ms-transform: scale(1)
+	transform: scale(1)
+	opacity: 1
+.lp__sports-slider .slick-center
+	-webkit-transform: scale(1)
+	ms-transform: scale(1)
+	transform: scale(1)
+	opacity: 1
+	transition: transform 0.3s
+.lp__sports-slider-wrapper
+	position: relative
+	width: 100%
+	float: left
+.lp__sports-slider-prev,
+.lp__sports-slider-next
+	width: 28px
+	height: 54px
+	position: absolute
+	top: 150px
+	display: block
+	cursor: pointer
+.lp__sports-slider-prev
+	background: url(../img/icons/arrow-left.png) no-repeat
+	left: -50px
+.lp__sports-slider-next
+	background: url(../img/icons/arrow-right.png) no-repeat
+	right: -50px
+
+.lp__lab
+	position: relative
+	z-index: 4
+	padding-top: 250px
+	overflow: hidden
+	max-width: 1920px
+	margin: -1000px auto 0
+	.lp__row
+		margin-bottom: 100px
+	.lp__right-lines
+		margin-top: -50px
+.lp__right-p
+	max-width: 470px
+	font-size: 18px
+	font-weight: 100
+	margin-top: 50px
+	line-height: 1.7
+.lp__lab-btn
+	margin-top: 90px
+.lp__lab-video
+	width: 100%
+	height: 430px
+	margin-top: 10px
+.lp__lab-block
+	float: left
+	width: calc(100% / 2)
+	margin-bottom: 40px
+.lp__lab-block-icon, .lp__lab-block-text
+	display: inline-block
+	vertical-align: top
+.lp__lab-block-icon
+	width: 80px
+	height: 80px
+	background-image: url(../img/slider-icon.png)
+	background-repeat: no-repeat
+	background-size: 80px
+.lp__lab-block-text
+	width: calc(100% - 155px)
+	padding: 0 20px 0 50px
+	h4
+		font-weight: 100
+		font-size: 20px
+		text-transform: uppercase
+		color: #6a729b
+	p
+		color: #676767
+		font-size: 19px
+		line-height: 1.7
+		padding-top: 10px
+.lp__lab-list-title
+	font-weight: 100
+	font-size: 20px
+	text-transform: uppercase
+	color: #6a729b
+.lp__lab-list
+	ul
+		padding-top: 25px
+	li
+		display: block
+		padding-bottom: 13px
+		padding-left: 30px
+		background: url(../img/header-dot.png) no-repeat 0px 5px
+		font-size: 17px
+.lp__lab-slider
+	width: 100%
+	margin: 0 auto
+	padding-bottom: 100px
+	.lp__lab-block
+		min-height: 100px
+	.lp__row
+		margin-bottom: 40px
+.lp__lab-slider-prev,
+.lp__lab-slider-next
+	width: 27px
+	height: 54px
+	position: absolute
+	top: 50%
+	margin-top: -100px
+	display: block
+	cursor: pointer
+.lp__lab-slider-prev
+	background: url(../img/icons/arrow-left-2.png) no-repeat
+	left: 0
+.lp__lab-slider-next
+	background: url(../img/icons/arrow-right-2.png) no-repeat
+	right: 0
+
+.lp__advantages
+	position: relative
+	z-index: 3
+	min-height: 2011px
+	background: url(../img/bg-3.png) no-repeat top center
+	padding-top: 570px
+	overflow: hidden
+	width: 100%
+	max-width: 1920px
+	margin: -415px auto 0
+	.lp__right
+		margin-bottom: 75px
+	.lp__right-lines
+		margin-top: -50px
+.lp__advant-block
+	width: calc(100% / 3)
+	float: left
+	min-height: 210px
+	margin-top: 60px
+.lp__advant-block-icon
+	width: 90px
+	height: 65px
+	background-repeat: no-repeat
+	background-position: left center
+.lp__advant-block-title
+	font-size: 24px
+	text-transform: uppercase
+	font-style: italic
+	font-weight: 300
+	color: #2a3570
+	width: calc(100% - 95px)
+	line-height: 1.4
+.lp__advant-block-icon,
+.lp__advant-block-title
+	display: inline-block
+	vertical-align: middle
+.lp__advant-block-text
+	font-size: 16px
+	font-weight: 100
+	color: #676767
+	line-height: 1.6
+	padding-top: 13px
+	max-width: 420px
+.lp__advant-btn
+	margin: 30px auto 0
+
+.lp__result
+	overflow: hidden
+	padding-top: 250px
+	position: relative
+	z-index: 4
+	max-width: 1920px
+	margin: -1185px auto 0
+	.lp__right-lines
+		margin-top: -50px
+.lp__result-block, .lp__expert-block
+	width: calc(100% / 4)
+	float: left
+	margin-top: 100px
+.lp__result-block-img, .lp__expert-block-img
+	padding-bottom: 20px
+.lp__result-block-title,
+.lp__result-block-text
+	max-width: 300px
+.lp__result-block-title, .lp__expert-block-name
+	color: #2a3570
+	font-size: 18px
+	font-weight: 300
+	text-transform: uppercase
+	line-height: 1.7
+	padding-bottom: 15px
+	min-height: 60px
+.lp__result-block-text, .lp__expert-block-text
+	font-size: 16px
+	font-weight: 100
+	color: #676767
+	line-height: 1.6
+.lp__result-btn
+	margin: 100px auto 0
+.lp__result-count, .lp__expert-count, .lp__recom-count
+	text-align: center
+	display: block
+	margin-top: 25px
+	font-size: 18px
+	color: #a0a8b3
+
+.lp__journal .lp__right-p
+	max-width: 530px
+	font-size: 16px
+	color: #676767
+	margin-top: 30px	
+.lp__journal
+	padding-bottom: 100px
+.lp__journal-btn
+	margin-top: 60px
+.lp__journal-img
+	text-align: center
+	img
+		max-width: 100%
+
+.lp__profile
+	position: relative
+	z-index: 3
+	min-height: 1998px
+	background: url(../img/bg-4.png) no-repeat top center
+	padding-top: 470px
+	overflow: hidden
+	max-width: 1920px
+	margin: -250px auto 0
+	.lp__right-lines
+		margin-top: -50px
+	.lp__right-h2
+		font-size: 36px
+	.lp__right-p
+		max-width: 100%
+		font-size: 16px
+		color: #676767
+		margin-top: 30px
+	.lp__right
+		ul
+			margin-top: 30px
+		li
+			display: block
+			padding-bottom: 13px
+			padding-left: 30px
+			background: url(../img/header-dot.png) no-repeat 0px 3px
+			font-size: 16px
+			color: #676767
+			&:last-child
+				padding-bottom: 0
+	.btn-gray
+		width: 200px
+		height: 40px
+		background: #f0f6ff
+		font-size: 14px
+		line-height: 40px
+	.btn-blue
+		width: 275px
+		height: 42px
+		line-height: 42px
+		margin-left: 10px
+.lp__profile-btn
+	display: inline-block
+	margin-top: 50px
+.lp__profile-man
+	margin: 0 auto
+	max-width: 679px
+	height: 739px
+	background: url(../img/profile-man.png) no-repeat
+	background-size: contain
+
+.lp__experts
+	position: relative
+	z-index: 3
+	padding-top: 250px
+	overflow: hidden
+	max-width: 1920px
+	margin: -1170px auto 0
+	.lp__right-lines
+		margin-top: -50px
+.lp__expert-block-name,
+.lp__expert-block-text
+	max-width: 270px
+.lp__expert-block-name
+	min-height: 0
+	padding-bottom: 5px
+.lp__expert-btn
+	margin: 60px auto 0
+
+.lp__recom
+	padding-top: 200px
+	overflow: hidden
+	position: relative
+	z-index: 4
+	margin: 0 auto
+	max-width: 1920px
+	.lp__right-lines
+		margin-top: -50px
+.lp__recom-block
+	width: calc(100% / 3)
+	float: left
+	margin-top: 100px
+.lp__recom-block-video,
+.lp__recom-block-title,
+.lp__recom-block-status,
+.lp__recom-block-text
+	max-width: 480px
+	padding-right: 30px
+.lp__recom-block-video
+	margin-bottom: 20px
+	iframe
+		width: 100%
+		height: 270px
+.lp__recom-block-title
+	color: #2a3570
+	font-size: 18px
+	font-weight: 300
+	text-transform: uppercase
+	line-height: 1.7
+	padding-bottom: 5px
+.lp__recom-block-text,
+.lp__recom-block-status
+	font-size: 16px
+	font-weight: 100
+	color: #676767
+	line-height: 1.6
+.lp__recom-block-status
+	padding-bottom: 15px
+.lp__recom-btn
+	margin: 80px auto 0
+
+.lp__footer
+	position: relative
+	z-index: 3
+	min-height: 910px
+	background: url(../img/bg-5.jpg) no-repeat top center
+	padding-top: 670px
+	overflow: hidden
+	max-width: 1920px
+	margin: -480px auto 0
+	.lp__right-lines
+		margin-top: -50px
+.lp__sponsor-slider
+	width: calc(100% - 100px)
+	margin: 150px auto
+.lp__sponsor-slider-img
+	min-height: 110px
+	text-align: center
+	line-height: 110px
+	display: block
+	img
+		display: inline-block
+		vertical-align: middle
+.lp__sponsor-slider-prev,
+.lp__sponsor-slider-next
+	width: 27px
+	height: 54px
+	position: absolute
+	top: 50%
+	margin-top: -27px
+	display: block
+	cursor: pointer
+.lp__sponsor-slider-prev
+	background: url(../img/icons/arrow-left-2.png) no-repeat
+	left: -50px
+.lp__sponsor-slider-next
+	background: url(../img/icons/arrow-right-2.png) no-repeat
+	right: -50px
+.lp__footer-blocks
+	position: absolute
+	bottom: 70px
+	left: 0
+	right: 0
+	text-align: center
+.lp__footer-block
+	text-align: left!important
+	max-width: 280px
+	width: 100%
+	display: inline-block
+	vertical-align: top
+	p
+		font-size: 14px
+		color: #fff
+		font-weight: 100
+		margin-left: -25px
+		padding-left: 25px
+		min-height: 16px
+		background-repeat: no-repeat
+		margin-bottom: 30px
+		&:last-child
+			margin-bottom: 0
+		span
+			display: block
+			margin-top: 5px
+	&.db
+		display: inline-block
+.lp__footer-block-title
+	font-size: 14px
+	text-transform: uppercase
+	color: #2a3570
+	font-weight: 300
+	padding-bottom: 20px
+.lp__foooter-menu
+	li
+		margin-bottom: 5px
+		&:last-child
+			margin-bottom: 0
+	a
+		color: #fff
+		font-size: 14px
+		font-weight: 100
+		text-decoration: none
+		border-bottom: 1px solid rgba(0,0,0,0)
+		transition: .3s
+		&:hover
+			border-bottom: 1px solid #fff
+.lp__footer-input
+	background-color: rgba(0,0,0,0)
+	border: 1px solid #fff
+	height: 40px
+	width: calc(280px - 22px)
+	border-radius: 20px
+	padding-left: 20px
+	font-size: 14px
+	font-weight: 100
+	margin-bottom: 20px
+	color: #fff
+	&::-webkit-input-placeholder
+		color: #fff
+	&::-moz-placeholder
+		color: #fff
+	&:-moz-placeholder
+		color: #fff
+	&:-ms-input-placeholder
+		color: #fff
+
+.lp__copyright
+	height: 80px
+	background: #2a3570
+	color: #fff
+	font-size: 14px
+	font-weight: 100
+.lp__copyright-text
+	a
+		color: #fff
+		text-decoration: none
+		border-bottom: 1px solid #fff
+.lp__copyright-text
+	float: left
+	padding-top: 34px
+.lp__copyright-social
+	float: right
+	padding-top: 28px
+	li
+		display: inline-block
+
+.hand
+	width: 557px
+	height: 610px
+	background: url(../img/hand.png) no-repeat
+	position: absolute
+	top: 250px
+
+.lp__right-lines
+	width: 234px
+	height: 155px
+	background: url(../img/double-right.png) no-repeat
+	position: absolute
+	right: 0
+	z-index: 10
+	span
+		font-size: 16px
+		font-weight: 300
+		font-style: italic
+		color: #2a3570
+		text-transform: uppercase
+		opacity: .5
+		-moz-transform: rotate(-20deg)
+		-ms-transform: rotate(-20deg)
+		-webkit-transform: rotate(-20deg)
+		-o-transform: rotate(-20deg)
+		transform: rotate(-20deg)
+		display: block
+		padding-left: 25px
+
+.db
+	display: block
+.dn
+	display: none
+
+.icon__footer-map
+	br
+		display: none
+.lp__price
+	padding-top: 400px
+	padding-bottom: 70px
+
+.lp__price-block
+	box-shadow: 0px 2px 27px 0px rgba(28, 32, 84, 0.3)
+	background: #fff
+	padding: 60px 60px 0
+	width: calc(460px - 120px)!important
+	height: 620px
+	margin: 50px auto
+	display: block!important
+	h3
+		font-size: 32px
+		text-align: center
+		font-weight: 300
+		text-transform: uppercase
+	h4
+		font-size: 16px
+		font-weight: 300
+		text-transform: uppercase
+		color: #5d5d5d
+		text-align: center
+		padding: 35px 0
+		line-height: 1.6
+		b
+			font-weight: 900
+	ul
+		li
+			font-size: 16px
+			font-weight: 100
+			padding-left: 25px
+			color: #30302f
+			padding-bottom: 15px
+			position: relative
+			&:last-child
+				padding-bottom: 0
+			&:before
+				position: absolute
+				left: 0
+				top: 5px
+				width: 8px
+				height: 8px
+				border-radius: 50%
+				content: ''
+				background: #000
+.lp__price-block-sum
+	display: block
+	text-align: center
+	font-size: 32px
+	font-weight: 100
+	padding-top: 40px
+	span
+		font-weight: 300
+		font-size: 20px
+.lp__price-block-des
+	font-size: 14px
+	color: #676767
+	text-align: center
+	display: block
+	min-height: 20px
+	font-weight: 100
+.lp__price-btn
+	width: 240px
+	height: 48px
+	border-radius: 24px
+	line-height: 48px
+	color: #fff
+	font-size: 16px
+	text-transform: uppercase
+	font-weight: 300
+	background: #000
+	display: block
+	margin: 40px auto 0
+	text-decoration: none
+	text-align: center
+
+.lp__price-blue
+	h3, .lp__price-block-sum
+		color: #449dd7
+	.lp__price-btn, ul li:before
+		background: #449dd7
+.lp__price-red
+	h3, .lp__price-block-sum
+		color: #e8262c
+	.lp__price-btn, ul li:before
+		background: #e8262c
+.lp__price-dark
+	h3, .lp__price-block-sum
+		color: #2c3370
+	.lp__price-btn, ul li:before
+		background: #2c3370
+
+.lp__problem-slider
+	margin-top: 80px
+	margin-bottom: 80px
+	.lp__sports-slide-icon
+		margin-top: 20px
+		background-color: #f7fbff
+		box-shadow: 0px 2px 10px 0px rgba(28, 32, 84, 0.2)
+.lp__problem-btn
+	margin: 0 auto
+
+.text-center
+	text-align: center
+.lp__footer-h4
+	font-size: 18px
+	text-transform: uppercase
+	color: #2a3570
+	line-height: 1.6
+	font-weight: 300
+	padding-top: 30px
+.btn-red
+	width: 240px
+	height: 50px
+	background: $red
+	border-radius: 25px
+	line-height: 50px
+	text-transform: uppercase
+	color: #fff
+	display: block
+	margin: 60px auto 0
+	text-decoration: none
+	text-align: center
+	font-size: 16px
+	font-weight: 300
+.lp__footer .text-center .lp__right-h2
+	padding-top: 70px
+
+.lp__price-slider-prev,
+.lp__price-slider-next
+	width: 28px
+	height: 54px
+	position: absolute
+	top: 50%
+	margin-top: -27px
+	display: block
+	cursor: pointer
+.lp__price-slider-prev
+	background: url(../img/icons/arrow-left.png) no-repeat
+	left: 0
+.lp__price-slider-next
+	background: url(../img/icons/arrow-right.png) no-repeat
+	right: 0
+
+.lp__problem-slider-prev,
+.lp__problem-slider-next
+	width: 27px
+	height: 54px
+	position: absolute
+	top: 50%
+	margin-top: -27px
+	display: block
+	cursor: pointer
+.lp__problem-slider-prev
+	background: url(../img/icons/arrow-left-2.png) no-repeat
+	left: 0
+.lp__problem-slider-next
+	background: url(../img/icons/arrow-right-2.png) no-repeat
+	right: 0
